@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortfolioWebsite.Data;
+using PortfilioMS.Data;
 using PortfolioWebsite.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
