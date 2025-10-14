@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PortfilioMS.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Data.Seeds
 {

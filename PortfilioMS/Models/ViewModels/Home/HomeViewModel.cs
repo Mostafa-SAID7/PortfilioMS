@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Models.ViewModels.Home
 {

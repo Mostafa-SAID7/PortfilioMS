@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PortfilioMS.Data.Configurations;
 using PortfilioMS.Data.Seeds;
-using PortfilioMS.Models;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Data
 {

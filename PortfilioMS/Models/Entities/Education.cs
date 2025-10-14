@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace PortfolioWebsite.Models
+namespace PortfilioMS.Models.Entities
 {
     public class Education
     {

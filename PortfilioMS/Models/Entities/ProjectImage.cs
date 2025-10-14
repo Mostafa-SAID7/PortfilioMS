@@ -1,8 +1,7 @@
-﻿using PortfolioWebsite.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PortfilioMS.Models
+namespace PortfilioMS.Models.Entities
 {
     public class ProjectImage
     {

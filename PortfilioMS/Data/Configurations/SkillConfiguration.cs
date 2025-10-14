@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Data.Configurations
 {

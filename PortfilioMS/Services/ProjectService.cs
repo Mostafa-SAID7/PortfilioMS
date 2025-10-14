@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using PortfolioWebsite.Models;
 using Microsoft.EntityFrameworkCore;
 using PortfilioMS.Data;
+using PortfilioMS.Models.Entities;
 
 namespace PortfolioWebsite.Services
 {

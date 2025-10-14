@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PortfilioMS.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Data.Configurations
 {

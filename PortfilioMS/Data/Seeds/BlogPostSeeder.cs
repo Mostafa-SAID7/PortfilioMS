@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 using System;
 
 namespace PortfilioMS.Data.Seeds

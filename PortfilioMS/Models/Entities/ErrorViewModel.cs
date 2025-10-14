@@ -1,4 +1,4 @@
-namespace PortfilioMS.Models
+namespace PortfilioMS.Models.Entities
 {
     public class ErrorViewModel
     {

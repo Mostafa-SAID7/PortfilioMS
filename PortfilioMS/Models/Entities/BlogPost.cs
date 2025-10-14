@@ -1,9 +1,8 @@
-﻿using PortfilioMS.Models;
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PortfolioWebsite.Models
+namespace PortfilioMS.Models.Entities
 {
     public class BlogPost
     {

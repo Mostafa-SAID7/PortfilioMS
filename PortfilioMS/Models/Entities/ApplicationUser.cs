@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using PortfolioWebsite.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace PortfilioMS.Models
+namespace PortfilioMS.Models.Entities
 {
     public class ApplicationUser : IdentityUser
     {

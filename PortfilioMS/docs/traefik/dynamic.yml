@@ -1,0 +1,32 @@
+http:
+  middlewares:
+    compress:
+      compress: {}
+    security-headers:
+      headers:
+        frameDeny: true
+        sslRedirect: true
+        browserXssFilter: true
+        contentTypeNosniff: true
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 31536000
+
+  routers:
+    portfolio:
+      rule: "Host(`portfolio.local`)"
+      entryPoints:
+        - websecure
+      middlewares:
+        - security-headers
+        - compress
+      service: portfolio
+      tls:
+        certResolver: letsencrypt
+
+  services:
+    portfolio:
+      loadBalancer:
+        servers:
+          - url: "http://portfolio-web:80"

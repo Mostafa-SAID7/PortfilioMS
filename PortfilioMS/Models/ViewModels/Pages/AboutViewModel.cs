@@ -1,4 +1,4 @@
-﻿using PortfolioWebsite.Models;
+﻿using PortfilioMS.Models.Entities;
 
 namespace PortfilioMS.Models.ViewModels.Pages
 {

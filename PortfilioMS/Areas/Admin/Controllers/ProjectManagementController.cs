@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PortfilioMS.Data;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfolioWebsite.Areas.Admin.Controllers
 {

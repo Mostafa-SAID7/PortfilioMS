@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using PortfolioWebsite.Models;
+using PortfilioMS.Models.Entities;
 
 namespace PortfolioWebsite.Services
 {
