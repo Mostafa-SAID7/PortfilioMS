@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using PortfolioWebsite.Models;
 
-namespace PortfolioWebsite.Models.ViewModels
+namespace PortfilioMS.Models.ViewModels.Home
 {
     public class HomeViewModel
     {

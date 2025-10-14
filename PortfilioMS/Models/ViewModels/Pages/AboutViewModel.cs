@@ -1,6 +1,6 @@
 ﻿using PortfolioWebsite.Models;
 
-namespace PortfilioMS.Models.ViewModels
+namespace PortfilioMS.Models.ViewModels.Pages
 {
     public class AboutViewModel
     {

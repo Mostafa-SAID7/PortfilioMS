@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using PortfolioWebsite.Models;
 
-namespace PortfolioWebsite.Models.ViewModels
+namespace PortfilioMS.Models.ViewModels.Contact
 {
     public class ContactViewModel
     {
