@@ -1,0 +1,75 @@
+﻿@model PortfilioMS.Models.ViewModels.Home.HomeViewModel
+
+<section id="hero" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <div class="hero-content">
+                    <div class="hero-badge mb-3">
+                        <span class="badge bg-primary">Welcome to my portfolio</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-primary">John Doe</span>
+                        <br>
+                        <span class="typewriter-text" id="typewriter"></span>
+                    </h1>
+                    <p class="hero-description lead">
+                        I'm a passionate full-stack developer specializing in .NET, React, and cloud technologies. 
+                        I love creating efficient, scalable solutions and learning new technologies.
+                    </p>
+                    <div class="hero-actions mt-4">
+                        <a href="#projects" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-rocket me-2"></i>View My Work
+                        </a>
+                        <a href="@Url.Action("Index", "Contact")" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-paper-plane me-2"></i>Get In Touch
+                        </a>
+                    </div>
+                    <div class="hero-social mt-4">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:hello@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-image text-center">
+                    <div class="image-container">
+                        <img src="~/images/profile/avatar.jpg" alt="Profile Picture" class="profile-image">
+                        <div class="floating-elements">
+                            <div class="floating-tech">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-tech">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="floating-tech">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-tech">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-link">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    <div class="hero-background">
+        <div class="particles-container" id="particles-js"></div>
+    </div>
+</section>

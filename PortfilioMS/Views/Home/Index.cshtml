@@ -1,8 +1,169 @@
-﻿@{
-    ViewData["Title"] = "Home";
+﻿@model PortfilioMS.Models.ViewModels.Home.HomeViewModel
+@{
+    ViewData["Title"] = "Home - Full Stack Developer";
+    ViewData["Description"] = "Professional portfolio showcasing projects, skills, and experience in full stack development";
+    ViewData["Keywords"] = "developer, portfolio, projects, skills, .NET, React, ASP.NET Core";
 }
 
-<section class="hero">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Discover my projects and skills</p>
+<!-- Hero Section -->
+<partial name="Partial/_HeroSection" model="Model" />
+
+<!-- About Section -->
+<partial name="Partial/_AboutSection" />
+
+<!-- Stats Section -->
+<partial name="Partial/_StatsSection" model="Model.Stats" />
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var skill in Model.Skills.Take(8))
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="skill-card text-center">
+                        <div class="skill-icon mb-3">
+                            <img src="@skill.IconUrl" alt="@skill.Name" class="img-fluid" style="height: 60px;">
+                        </div>
+                        <h5 class="skill-name">@skill.Name</h5>
+                        <div class="skill-progress">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" 
+                                     style="width: @skill.Proficiency%"
+                                     aria-valuenow="@skill.Proficiency" 
+                                     aria-valuemin="0" 
+                                     aria-valuemax="100">
+                                    @skill.Proficiency%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
 </section>
+
+<!-- Featured Projects Section -->
+<section id="projects" class="projects-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var project in Model.FeaturedProjects)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="@project.ThumbnailUrl" alt="@project.Title" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="@Url.Action("Details", "Projects", new { id = project.Id })" class="btn btn-primary">View Details</a>
+                                    @if (!string.IsNullOrEmpty(project.LiveDemoUrl))
+                                    {
+                                        <a href="@project.LiveDemoUrl" target="_blank" class="btn btn-outline-light">Live Demo</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">@project.Title</h5>
+                            <p class="project-description">@project.ShortDescription</p>
+                            <div class="project-technologies">
+                                @foreach (var tech in project.Technologies.Take(3))
+                                {
+                                    <span class="tech-tag">@tech</span>
+                                }
+                                @if (project.Technologies.Count > 3)
+                                {
+                                    <span class="tech-tag">+@(project.Technologies.Count - 3) more</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mt-4">
+                <a href="@Url.Action("Index", "Projects")" class="btn btn-outline-primary">View All Projects</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recent Blog Posts Section -->
+<section id="blog" class="blog-section py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Recent Blog Posts</h2>
+                <p class="section-subtitle">Latest thoughts and tutorials</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var post in Model.RecentBlogPosts)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="@post.ThumbnailUrl" alt="@post.Title" class="img-fluid">
+                            <div class="blog-date">
+                                <span>@post.PublishedDate.ToString("MMM dd")</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">@post.Category</span>
+                                <span class="blog-read-time">@post.ReadTime min read</span>
+                            </div>
+                            <h5 class="blog-title">
+                                <a href="@Url.Action("Post", "Blog", new { slug = post.Slug })">@post.Title</a>
+                            </h5>
+                            <p class="blog-excerpt">@post.Excerpt</p>
+                            <div class="blog-footer">
+                                <a href="@Url.Action("Post", "Blog", new { slug = post.Slug })" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mt-4">
+                <a href="@Url.Action("Index", "Blog")" class="btn btn-outline-primary">View All Posts</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section py-5 bg-primary text-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h3 class="cta-title">Ready to start your next project?</h3>
+                <p class="cta-description">Let's work together to bring your ideas to life</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a href="@Url.Action("Index", "Contact")" class="btn btn-light btn-lg">Get In Touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/home/hero-animations.js"></script>
+    <script src="~/js/home/typewriter.js"></script>
+    <script src="~/js/shared/animations.js"></script>
+}

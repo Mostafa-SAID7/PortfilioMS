@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Data.md" />
+    <Content Remove="wwwroot\Prompt.md" />
+    <Content Remove="wwwroot\Structure Root.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Data.md" />
+    <None Include="wwwroot\Prompt.md" />
+    <None Include="wwwroot\Structure Root.md" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +31,12 @@
 
   <ItemGroup>
     <Folder Include="Models\Entities\Base\" />
+    <Folder Include="wwwroot\fonts\icon-fonts\" />
+    <Folder Include="wwwroot\fonts\custom\" />
+    <Folder Include="wwwroot\js\lib\" />
+    <Folder Include="wwwroot\js\blog\" />
+    <Folder Include="wwwroot\js\projects\" />
+    <Folder Include="wwwroot\lib\prism\" />
   </ItemGroup>
 
 </Project>

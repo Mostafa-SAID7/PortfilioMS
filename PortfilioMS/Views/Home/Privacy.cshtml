@@ -1,6 +1,84 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+    ViewData["Description"] = "Privacy policy and data protection information";
 }
 
-<h2>Privacy Policy</h2>
-<p>Your privacy is important to us.</p>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="privacy-header text-center mb-5">
+                <h1 class="display-4">Privacy Policy</h1>
+                <p class="lead">Last updated: @DateTime.Now.ToString("MMMM dd, yyyy")</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="privacy-content">
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Information Collection</h2>
+                    <p>I collect information that you provide directly to me, including:</p>
+                    <ul>
+                        <li>Name and email address when you contact me through the contact form</li>
+                        <li>Any information you choose to share in your message</li>
+                        <li>Technical information such as IP address, browser type, and device information</li>
+                    </ul>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Use of Information</h2>
+                    <p>I use the information I collect to:</p>
+                    <ul>
+                        <li>Respond to your inquiries and provide customer support</li>
+                        <li>Improve my website and services</li>
+                        <li>Send periodic emails (only if you opt-in)</li>
+                        <li>Monitor and analyze trends and usage</li>
+                    </ul>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Data Protection</h2>
+                    <p>I implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Third-Party Services</h2>
+                    <p>This website may use third-party services such as:</p>
+                    <ul>
+                        <li>Google Analytics for website analytics</li>
+                        <li>Email service providers for communication</li>
+                        <li>Cloud storage for file management</li>
+                    </ul>
+                    <p>These third parties have their own privacy policies addressing how they use such information.</p>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Cookies</h2>
+                    <p>This website uses cookies to enhance user experience. You can control cookie preferences through your browser settings.</p>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Your Rights</h2>
+                    <p>You have the right to:</p>
+                    <ul>
+                        <li>Access your personal information</li>
+                        <li>Correct inaccurate information</li>
+                        <li>Request deletion of your information</li>
+                        <li>Object to processing of your information</li>
+                        <li>Request data portability</li>
+                    </ul>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="h4 mb-3">Contact Me</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact me through the contact form on this website.</p>
+                </section>
+
+                <div class="alert alert-info mt-4">
+                    <strong>Note:</strong> This privacy policy may be updated from time to time. Please check this page periodically for changes.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

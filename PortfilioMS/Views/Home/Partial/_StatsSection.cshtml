@@ -1,0 +1,44 @@
+﻿@model PortfilioMS.Models.ViewModels.Home.StatsViewModel
+
+<section id="stats" class="stats-section py-5 bg-dark text-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-item">
+                    <div class="stat-icon mb-3">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="stat-number" data-count="@Model.ProjectsCompleted">0</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-item">
+                    <div class="stat-icon mb-3">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3 class="stat-number" data-count="@Model.HappyClients">0</h3>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-item">
+                    <div class="stat-icon mb-3">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="stat-number" data-count="@Model.YearsExperience">0</h3>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="stat-item">
+                    <div class="stat-icon mb-3">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3 class="stat-number" data-count="@Model.GithubContributions">0</h3>
+                    <p class="stat-label">GitHub Contributions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
