@@ -19,6 +19,8 @@ namespace PortfilioMS.Data
         // DbSets
         public DbSet<Project> Projects { get; set; }
         public DbSet<ProjectImage> ProjectImages { get; set; }
+        public DbSet<ProjectSkill> ProjectSkills { get; set; }
+
         public DbSet<Skill> Skills { get; set; }
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<BlogPost> BlogPosts { get; set; }

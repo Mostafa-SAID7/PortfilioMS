@@ -3,84 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\models\\viewmodels\\home\\statsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\models\\viewmodels\\home\\statsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\skills\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\skills\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\skills\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\skills\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\wwwroot\\js\\home\\typewriter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\wwwroot\\js\\home\\typewriter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\wwwroot\\js\\home\\hero-animations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\wwwroot\\js\\home\\hero-animations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\home\\partial\\_statssection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\home\\partial\\_statssection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\controllers\\1-controller.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\controllers\\1-controller.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\home\\partial\\_aboutsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\home\\partial\\_aboutsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\home\\partial\\_herosection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\home\\partial\\_herosection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\models\\entities\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\models\\entities\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\models\\viewmodels\\home\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\models\\viewmodels\\home\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\models\\viewmodels\\home\\testimonialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\models\\viewmodels\\home\\testimonialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\fullstructure.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\fullstructure.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\portfilioms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\portfilioms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\areas\\admin\\controllers\\projectmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\areas\\admin\\controllers\\projectmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\wwwroot\\structure root.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\wwwroot\\structure root.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\wwwroot\\fully structure.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\wwwroot\\fully structure.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|c:\\users\\mostafa\\onedrive\\desktop\\projects\\portfilioms\\portfilioms\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A899708F-46EE-4451-ABE1-F8F162F483B7}|PortfilioMS\\PortfilioMS.csproj|solutionrelative:portfilioms\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,267 +53,107 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Details.cshtml",
+              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Skills\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Details.cshtml",
+              "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Details.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T11:57:07.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "PortfilioMS\\wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "PortfilioMS\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAOMBAAAAAAAAAAAAAKMBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-15T04:09:34.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_StatsSection.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_StatsSection.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Home\\Partial\\_StatsSection.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_StatsSection.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\Home\\Partial\\_StatsSection.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Skills\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Delete.cshtml",
+              "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T04:07:42.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_AboutSection.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_AboutSection.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Home\\Partial\\_AboutSection.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_AboutSection.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\Home\\Partial\\_AboutSection.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T04:07:08.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_HeroSection.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_HeroSection.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Home\\Partial\\_HeroSection.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Partial\\_HeroSection.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\Home\\Partial\\_HeroSection.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T04:06:01.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T04:03:11.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\StatsViewModel.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Models\\ViewModels\\Home\\StatsViewModel.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\StatsViewModel.cs",
-              "RelativeToolTip": "PortfilioMS\\Models\\ViewModels\\Home\\StatsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:01:22.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "hero-animations.js",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\js\\home\\hero-animations.js",
-              "RelativeDocumentMoniker": "PortfilioMS\\wwwroot\\js\\home\\hero-animations.js",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\js\\home\\hero-animations.js",
-              "RelativeToolTip": "PortfilioMS\\wwwroot\\js\\home\\hero-animations.js",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAlwHcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-15T04:08:32.968Z",
+              "WhenOpened": "2025-10-16T11:56:42.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "typewriter.js",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\js\\home\\typewriter.js",
-              "RelativeDocumentMoniker": "PortfilioMS\\wwwroot\\js\\home\\typewriter.js",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\js\\home\\typewriter.js",
-              "RelativeToolTip": "PortfilioMS\\wwwroot\\js\\home\\typewriter.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-15T04:08:58.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAASAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Create.cshtml",
+              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Skills\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Create.cshtml",
+              "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T04:03:02.594Z",
+              "WhenOpened": "2025-10-16T11:55:26.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TestimonialViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\TestimonialViewModel.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Models\\ViewModels\\Home\\TestimonialViewModel.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\TestimonialViewModel.cs",
-              "RelativeToolTip": "PortfilioMS\\Models\\ViewModels\\Home\\TestimonialViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:01:00.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Models\\ViewModels\\Home\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\ViewModels\\Home\\HomeViewModel.cs",
-              "RelativeToolTip": "PortfilioMS\\Models\\ViewModels\\Home\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:00:22.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PortfilioMS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:58:46.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FullStructure.md",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\FullStructure.md",
-              "RelativeDocumentMoniker": "PortfilioMS\\FullStructure.md",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\FullStructure.md",
-              "RelativeToolTip": "PortfilioMS\\FullStructure.md",
-              "ViewState": "AgIAAM4BAAAAAAAAAAAswOYBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-15T03:57:15.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PortfilioMS",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\PortfilioMS.csproj",
-              "RelativeDocumentMoniker": "PortfilioMS\\PortfilioMS.csproj",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\PortfilioMS.csproj",
-              "RelativeToolTip": "PortfilioMS\\PortfilioMS.csproj",
-              "ViewState": "AgIAAB4AAAAAAAAAAAD4vwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-15T03:55:28.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProjectManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Controllers\\ProjectManagementController.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Areas\\Admin\\Controllers\\ProjectManagementController.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Controllers\\ProjectManagementController.cs",
-              "RelativeToolTip": "PortfilioMS\\Areas\\Admin\\Controllers\\ProjectManagementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:54:47.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "PortfilioMS\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "PortfilioMS\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T03:54:24.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Index.cshtml",
+              "RelativeDocumentMoniker": "PortfilioMS\\Views\\Skills\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\Skills\\Index.cshtml",
+              "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T03:47:42.146Z",
+              "WhenOpened": "2025-10-16T11:54:50.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PortfilioMS\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PortfilioMS\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T03:46:47.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Fully Structure.md",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\Fully Structure.md",
-              "RelativeDocumentMoniker": "PortfilioMS\\wwwroot\\Fully Structure.md",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\Fully Structure.md",
-              "RelativeToolTip": "PortfilioMS\\wwwroot\\Fully Structure.md",
-              "ViewState": "AgIAABoBAAAAAAAAAAAvwCMBAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "1-Controller.md",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Controllers\\1-Controller.md",
+              "RelativeDocumentMoniker": "PortfilioMS\\Controllers\\1-Controller.md",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Controllers\\1-Controller.md",
+              "RelativeToolTip": "PortfilioMS\\Controllers\\1-Controller.md",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-15T03:45:37.625Z",
+              "WhenOpened": "2025-10-16T11:45:17.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Structure Root.md",
-              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\Structure Root.md",
-              "RelativeDocumentMoniker": "PortfilioMS\\wwwroot\\Structure Root.md",
-              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\wwwroot\\Structure Root.md",
-              "RelativeToolTip": "PortfilioMS\\wwwroot\\Structure Root.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-15T03:35:35.97Z",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "PortfilioMS\\Models\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\Entities\\Project.cs",
+              "RelativeToolTip": "PortfilioMS\\Models\\Entities\\Project.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:30:26.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectSkill.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\Entities\\ProjectSkill.cs",
+              "RelativeDocumentMoniker": "PortfilioMS\\Models\\Entities\\ProjectSkill.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Models\\Entities\\ProjectSkill.cs",
+              "RelativeToolTip": "PortfilioMS\\Models\\Entities\\ProjectSkill.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:20:38.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Services\\SkillService.cs",
+              "RelativeDocumentMoniker": "PortfilioMS\\Services\\SkillService.cs",
+              "ToolTip": "C:\\Users\\Mostafa\\OneDrive\\Desktop\\Projects\\PortfilioMS\\PortfilioMS\\Services\\SkillService.cs",
+              "RelativeToolTip": "PortfilioMS\\Services\\SkillService.cs",
+              "ViewState": "AgIAAJYBAAAAAAAAAAAYwJsBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:24:10.536Z",
               "EditorCaption": ""
             }
           ]

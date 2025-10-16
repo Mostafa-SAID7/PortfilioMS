@@ -52,6 +52,8 @@ namespace PortfilioMS.Models.Entities
 
         [Display(Name = "Is Featured")]
         public bool IsFeatured { get; set; } = false;
+        [Display(Name = "Is Active")]
+        public bool IsActive { get; set; } = true;
 
         [Display(Name = "Is Published")]
         public bool IsPublished { get; set; } = true;
@@ -77,6 +79,7 @@ namespace PortfilioMS.Models.Entities
         public virtual ApplicationUser CreatedBy { get; set; }
 
         public virtual ICollection<ProjectImage> ProjectImages { get; set; }
+        public ICollection<ProjectSkill> ProjectSkills { get; set; } = new List<ProjectSkill>();
 
         [NotMapped]
         public List<string> TechnologyList =>

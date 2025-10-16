@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PortfilioMS.Models.Entities
@@ -16,7 +17,7 @@ namespace PortfilioMS.Models.Entities
         [Required(ErrorMessage = "Category is required")]
         [StringLength(50)]
         [Display(Name = "Category")]
-        public string Category { get; set; } // e.g., Frontend, Backend, Database, Tools, etc.
+        public string Category { get; set; }
 
         [Range(0, 100, ErrorMessage = "Proficiency must be between 0 and 100")]
         [Display(Name = "Proficiency Level (%)")]
@@ -36,6 +37,9 @@ namespace PortfilioMS.Models.Entities
         [Display(Name = "Is Active")]
         public bool IsActive { get; set; } = true;
 
+        [Display(Name = "Is Featured")]
+        public bool IsFeatured { get; set; } = false;
+
         [Display(Name = "Years of Experience")]
         public int? YearsOfExperience { get; set; }
 
@@ -48,5 +52,8 @@ namespace PortfilioMS.Models.Entities
 
         [Display(Name = "Updated Date")]
         public DateTime? UpdatedDate { get; set; }
+
+        // Navigation property (optional)
+        public ICollection<ProjectSkill> ProjectSkills { get; set; }
     }
 }

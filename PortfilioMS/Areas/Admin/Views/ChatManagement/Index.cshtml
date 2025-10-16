@@ -1,0 +1,174 @@
+﻿@model List<ChatMessage>
+@inject Microsoft.Extensions.Localization.IStringLocalizer Localizer
+
+@{
+    ViewData["Title"] = "Chat Management";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Live Chat Messages</h2>
+            <hr />
+            
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Sender</th>
+                            <th>Email</th>
+                            <th>Message</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var message in Model)
+                        {
+                            <tr class="@(message.IsRead ? "" : "table-warning")">
+                                <td>@message.SentAt.ToString("MMM dd, yyyy HH:mm")</td>
+                                <td>@message.SenderName</td>
+                                <td>@message.SenderEmail</td>
+                                <td>@message.Message</td>
+                                <td>
+                                    @if (message.IsRead)
+                                    {
+                                        <span class="badge bg-success">Read</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning">Unread</span>
+                                    }
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-primary reply-btn" 
+                                            data-id="@message.Id" 
+                                            data-session="@message.SessionId">
+                                        Reply
+                                    </button>
+                                    @if (!message.IsRead)
+                                    {
+                                        <button class="btn btn-sm btn-secondary mark-read-btn" 
+                                                data-id="@message.Id">
+                                            Mark as Read
+                                        </button>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Reply Modal -->
+<div class="modal fade" id="replyModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Send Reply</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <textarea id="replyText" class="form-control" rows="4" 
+                          placeholder="Type your reply..."></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="sendReplyBtn">Send Reply</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+    <script>
+        let currentMessageId = null;
+        let currentSessionId = null;
+        let connection = null;
+
+        // Initialize SignalR
+        async function initSignalR() {
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chatHub")
+                .build();
+
+            await connection.start();
+            await connection.invoke("JoinAdminGroup");
+        }
+
+        initSignalR();
+
+        // Reply button click
+        document.querySelectorAll('.reply-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                currentMessageId = this.dataset.id;
+                currentSessionId = this.dataset.session;
+                const modal = new bootstrap.Modal(document.getElementById('replyModal'));
+                modal.show();
+            });
+        });
+
+        // Send reply
+        document.getElementById('sendReplyBtn').addEventListener('click', async function() {
+            const reply = document.getElementById('replyText').value.trim();
+            
+            if (!reply) {
+                alert('Please enter a reply');
+                return;
+            }
+
+            try {
+                const response = await fetch('/Admin/ChatManagement/Reply', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: `messageId=${currentMessageId}&reply=${encodeURIComponent(reply)}`
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Send via SignalR
+                    await connection.invoke("SendAdminReply", currentMessageId, reply);
+                    
+                    alert('Reply sent successfully');
+                    location.reload();
+                }
+            } catch (error) {
+                console.error('Error sending reply:', error);
+                alert('Failed to send reply');
+            }
+        });
+
+        // Mark as read
+        document.querySelectorAll('.mark-read-btn').forEach(btn => {
+            btn.addEventListener('click', async function() {
+                const messageId = this.dataset.id;
+                
+                try {
+                    const response = await fetch('/Admin/ChatManagement/MarkAsRead', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: `messageId=${messageId}`
+                    });
+
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                        location.reload();
+                    }
+                } catch (error) {
+                    console.error('Error marking as read:', error);
+                }
+            });
+        });
+    </script>
+}

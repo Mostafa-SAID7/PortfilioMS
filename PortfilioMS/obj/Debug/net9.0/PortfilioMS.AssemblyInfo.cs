@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortfilioMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ace52735eee440b10865d55af83df7fd585fb895")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a56ef9ce6be2e438d8f53a40cd0e492118a218d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortfilioMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortfilioMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

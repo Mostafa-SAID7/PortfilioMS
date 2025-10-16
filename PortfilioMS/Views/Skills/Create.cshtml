@@ -1,0 +1,47 @@
+﻿@model PortfilioMS.Models.Dtos.Skill.CreateSkillRequest
+
+@{
+    ViewData["Title"] = "Create Skill";
+}
+
+<h2>Create Skill</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label"></label>
+        <input asp-for="Category" class="form-control" />
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ProficiencyLevel" class="form-label"></label>
+        <input asp-for="ProficiencyLevel" class="form-control" type="number" />
+        <span asp-validation-for="ProficiencyLevel" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IconClass" class="form-label"></label>
+        <input asp-for="IconClass" class="form-control" />
+        <span asp-validation-for="IconClass" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsFeatured" class="form-check-input" />
+        <label asp-for="IsFeatured" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
