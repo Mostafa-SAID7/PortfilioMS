@@ -75,8 +75,7 @@
               "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T11:56:42.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:56:42.135Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T11:55:26.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:55:26.38Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "PortfilioMS\\Views\\Skills\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T11:54:50.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:54:50.956Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "PortfilioMS\\Controllers\\1-Controller.md",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-16T11:45:17.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:45:17.042Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "PortfilioMS\\Models\\Entities\\Project.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T11:30:26.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:30:26.475Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "PortfilioMS\\Models\\Entities\\ProjectSkill.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T11:20:38.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T11:20:38.51Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "PortfilioMS\\Services\\SkillService.cs",
               "ViewState": "AgIAAJYBAAAAAAAAAAAYwJsBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:24:10.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T04:24:10.536Z"
             }
           ]
         }
